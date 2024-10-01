@@ -1,0 +1,11 @@
+<div>
+  <div class="container">
+    <h1>Alphabet-Number Calculator</h1>
+    <input type="text" [(ngModel)]="inputString" placeholder="Insert text">
+    <button (click)="calculate()">Calculate</button>
+    <div *ngIf="result > 0">
+      <p>The result is: {{ result }}</p>
+    </div>
+  </div>
+
+</div>
